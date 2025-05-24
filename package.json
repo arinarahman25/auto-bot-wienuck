@@ -1,0 +1,21 @@
+{
+  "name": "bot-topup-maxi",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Grup untuk Top Up Game Otomatis 24 Jam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "bobiapenk",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.17",
+    "axios": "^1.6.8",
+    "dotenv": "^16.5.0",
+    "moment": "^2.29.4",
+    "mongoose": "^8.3.1",
+    "node-cron": "^4.0.7",
+    "pino": "^9.7.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
