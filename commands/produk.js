@@ -12,7 +12,7 @@ module.exports = async (sock, msg) => {
       list += `🆔 *${item.buyer_sku_code}*\n📌 ${item.product_name}\n💰 Rp${item.price.toLocaleString()}\n\n`;
     }
 
-    list += '_Ketik kode produk dan UID kamu untuk top up_\nContoh: `!topup ML10 12345678`';
+    list += '_Ketik kode produk dan UID kamu untuk top up_\nContoh: `topup ML10 12345678`';
 
     await sock.sendMessage(msg.key.remoteJid, { text: list }, { quoted: msg });
   } catch (err) {

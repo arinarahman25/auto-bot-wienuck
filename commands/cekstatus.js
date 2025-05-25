@@ -6,7 +6,7 @@ module.exports = async (sock, msg, args) => {
   const chat = msg.key.remoteJid;
 
   if (args.length < 1) {
-    return sock.sendMessage(chat, { text: 'Ketik: !cekstatus <ref_id>' }, { quoted: msg });
+    return sock.sendMessage(chat, { text: 'Ketik: cekstatus <ref_id>' }, { quoted: msg });
   }
 
   const ref_id = args[0];

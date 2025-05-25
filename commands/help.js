@@ -1,24 +1,26 @@
+// commands/help.js
 module.exports = async (sock, msg) => {
-  const chat = msg.key.remoteJid;
+  const menuText = `
+  📖 *DAFTAR PERINTAH BOT TOPUP MAXI*
 
-  const helpText = `📖 *DAFTAR PERINTAH BOT TOPUP MAXI*
-
-1. *!produk*
+  Berikut perintah yang tersedia:
+1. *menu*
    ➤ Menampilkan daftar produk top up.
+   ➤ Contoh: ml / pubg / ff
 
-2. *!topup <SKU> <ID_Pengguna>*
+2. *topup <SKU> <ID_Pengguna>*
    ➤ Membuat transaksi top up.
-   ➤ Contoh: !topup ML10 123456789
+   ➤ Contoh: topup ml85 123456789
 
-3. *!cekstatus <ref_id>*
+3. *cekstatus <ref_id>*
    ➤ Cek status pembayaran dan topup.
-   ➤ Contoh: !cekstatus a1b2c3d4
+   ➤ Contoh: cekstatus a1b2c3d4
 
-4. *!help*
+4. *help*
    ➤ Menampilkan pesan ini.
 
 Silakan gunakan perintah di atas sesuai kebutuhan.
 `;
 
-  await sock.sendMessage(chat, { text: helpText }, { quoted: msg });
+   await sock.sendMessage(msg.key.remoteJid, { text: menuText }, { quoted: msg });
 };
