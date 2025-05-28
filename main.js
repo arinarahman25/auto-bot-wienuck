@@ -11,6 +11,8 @@ const {
 const pino = require("pino");
 const qrcode = require("qrcode-terminal");
 const connectDB = require("./database/connection");
+const keepAlive = require("./keepalive");
+const monitor = require("./monitor");
 
 // Commands
 const menuCommand = require("./commands/menu");
@@ -68,12 +70,19 @@ async function startBot() {
 
     if (connection === "open") {
       console.log("✅ Bot berhasil terhubung ke WhatsApp");
+      console.log("🚀 Bot MAXI siap melayani 24/7!");
     } else if (connection === "close") {
       const shouldReconnect =
         lastDisconnect?.error?.output?.statusCode !==
         DisconnectReason.loggedOut;
       console.log("⛔️ Koneksi terputus. Reconnect:", shouldReconnect);
-      if (shouldReconnect) startBot();
+      
+      if (shouldReconnect) {
+        console.log("🔄 Mencoba reconnect dalam 5 detik...");
+        setTimeout(() => {
+          startBot();
+        }, 5000);
+      }
     }
   });
 
@@ -213,18 +222,11 @@ async function startBot() {
     }
   });
 
-  // Webhook untuk callback (jika dipakai)
-  const app = express();
-  const PORT = process.env.PORT || 3000;
-
-  app.use(bodyParser.json());
-  app.use("/webhook", webhookRoute);
-
-  app.listen(PORT, () => {
-    console.log(
-      `🚀 Webhook server aktif di http://localhost:${PORT}/webhook/tripay`,
-    );
-  });
+  // Setup webhook routes pada keep-alive server
+  keepAlive.use(bodyParser.json());
+  keepAlive.use("/webhook", webhookRoute);
+  
+  console.log("🔗 Webhook endpoint: /webhook/tripay");
 }
 
 startBot();
