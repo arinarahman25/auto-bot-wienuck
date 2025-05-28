@@ -22,6 +22,7 @@ app.get('/health', (req, res) => {
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🌐 Keep-alive server berjalan di port ${PORT}`);
+  console.log(`📍 Health endpoint: http://0.0.0.0:${PORT}/health`);
 });
 
 module.exports = app;

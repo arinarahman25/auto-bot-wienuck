@@ -12,7 +12,7 @@ const pino = require("pino");
 const qrcode = require("qrcode-terminal");
 const connectDB = require("./database/connection");
 const keepAlive = require("./keepalive");
-const monitor = require("./monitor");
+// const monitor = require("./monitor"); // Commented out temporarily
 
 // Commands
 const menuCommand = require("./commands/menu");

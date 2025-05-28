@@ -4,7 +4,7 @@
   "description": "Bot WhatsApp Grup untuk Top Up Game Otomatis 24 Jam",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-global-webcrypto index.js"
   },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.70",
