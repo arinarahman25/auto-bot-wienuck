@@ -1,0 +1,167 @@
+2025-05-29 14:50:26,408 - semgrep.run_scan - DEBUG - semgrep version 1.2.0
+2025-05-29 14:50:26,431 - semgrep.config_resolver - DEBUG - Loading local config from /home/runner/workspace/.config/.semgrep/semgrep_rules.json
+2025-05-29 14:50:26,433 - semgrep.config_resolver - DEBUG - Done loading local config from /home/runner/workspace/.config/.semgrep/semgrep_rules.json
+2025-05-29 14:50:26,437 - semgrep.config_resolver - DEBUG - Saving rules to /tmp/semgrep-y2zer8hq.rules
+2025-05-29 14:50:26,655 - semgrep.semgrep_core - DEBUG - Failed to open resource semgrep-core-proprietary: [Errno 2] No such file or directory: '/tmp/_MEIH0ZtBX/semgrep/bin/semgrep-core-proprietary'.
+2025-05-29 14:50:27,179 - semgrep.rule_lang - DEBUG - semgrep-core validation response: valid=True
+2025-05-29 14:50:27,179 - semgrep.rule_lang - DEBUG - semgrep-core validation succeeded
+2025-05-29 14:50:27,179 - semgrep.rule_lang - DEBUG - RPC validation succeeded
+2025-05-29 14:50:27,179 - semgrep.config_resolver - DEBUG - loaded 1 configs in 0.7486443519592285
+2025-05-29 14:50:27,259 - semgrep.run_scan - VERBOSE - running 711 rules from 1 config /home/runner/workspace/.config/.semgrep/semgrep_rules.json_0
+2025-05-29 14:50:27,259 - semgrep.run_scan - VERBOSE - No .semgrepignore found. Using default .semgrepignore rules. See the docs for the list of default ignores: https://semgrep.dev/docs/cli-usage/#ignore-files
+2025-05-29 14:50:27,262 - semgrep.run_scan - VERBOSE - Rules:
+2025-05-29 14:50:27,262 - semgrep.run_scan - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:29,666 - semgrep.ignores - VERBOSE - Ignoring due to .semgrepignore:
+2025-05-29 14:50:29,667 - semgrep.ignores - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:30,346 - semgrep.ignores - VERBOSE - Ignoring due to .semgrepignore:
+2025-05-29 14:50:30,346 - semgrep.ignores - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:30,607 - semgrep.ignores - VERBOSE - Ignoring due to .semgrepignore:
+2025-05-29 14:50:30,607 - semgrep.ignores - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:32,102 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/inc-version.sh due to .semgrepignore
+2025-05-29 14:50:32,102 - semgrep.ignores - VERBOSE - Ignoring node_modules/thread-stream/test/ts/transpile.sh due to .semgrepignore
+2025-05-29 14:50:32,547 - semgrep.ignores - VERBOSE - Ignoring due to .semgrepignore:
+2025-05-29 14:50:32,547 - semgrep.ignores - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:32,655 - semgrep.ignores - VERBOSE - Ignoring due to .semgrepignore:
+2025-05-29 14:50:32,655 - semgrep.ignores - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:32,913 - semgrep.ignores - VERBOSE - Ignoring node_modules/flatted/php/flatted.php due to .semgrepignore
+2025-05-29 14:50:32,973 - semgrep.ignores - VERBOSE - Ignoring node_modules/flatted/python/flatted.py due to .semgrepignore
+2025-05-29 14:50:33,240 - semgrep.ignores - VERBOSE - Ignoring due to .semgrepignore:
+2025-05-29 14:50:33,241 - semgrep.ignores - VERBOSE - <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+2025-05-29 14:50:33,305 - semgrep.ignores - VERBOSE - Ignoring node_modules/ajv/scripts/.eslintrc.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/atomic-sleep/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/balanced-match/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/brace-expansion/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/call-bind-apply-helpers/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/concat-map/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/deep-is/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/dunder-proto/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/es-define-property/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/es-errors/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/es-object-atoms/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/events/.airtap.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/events/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/events/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/fast-json-stable-stringify/.eslintrc.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/fast-json-stable-stringify/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,306 - semgrep.ignores - VERBOSE - Ignoring node_modules/fast-json-stable-stringify/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,307 - semgrep.ignores - VERBOSE - Ignoring node_modules/fast-redact/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/fastq/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/fastq/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/function-bind/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/get-intrinsic/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/get-proto/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/gopd/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/has-symbols/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/has-tostringtag/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/hasown/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/json-buffer/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/json-schema-traverse/.eslintrc.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/json-schema-traverse/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/json-schema-traverse/spec/.eslintrc.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/json-stable-stringify-without-jsonify/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/math-intrinsics/.github/FUNDING.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/memory-pager/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/mpath/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/mpath/test/.eslintrc.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/on-exit-leak-free/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/on-exit-leak-free/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,322 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/.github/workflows/bench.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/.github/workflows/lock-threads.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/.github/workflows/target-main.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/.taprc.yaml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino-abstract-transport/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino-abstract-transport/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino-std-serializers/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino-std-serializers/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/process-warning/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/process-warning/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/proxy-from-env/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/qrcode-terminal/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/querystring/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/quick-format-unescaped/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/reusify/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/reusify/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/sparse-bitfield/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/thread-stream/.github/dependabot.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/thread-stream/.github/workflows/ci.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/thread-stream/test/yarnrc.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/url/.travis.yml due to .semgrepignore
+2025-05-29 14:50:33,323 - semgrep.ignores - VERBOSE - Ignoring node_modules/url/.zuul.yml due to .semgrepignore
+2025-05-29 14:50:33,374 - semgrep.ignores - VERBOSE - Ignoring node_modules/pino/index.html due to .semgrepignore
+2025-05-29 14:50:33,374 - semgrep.ignores - VERBOSE - Ignoring node_modules/tslib/tslib.es6.html due to .semgrepignore
+2025-05-29 14:50:33,374 - semgrep.ignores - VERBOSE - Ignoring node_modules/tslib/tslib.html due to .semgrepignore
+2025-05-29 14:50:35,646 - semgrep.core_runner - DEBUG - Passing whole rules directly to semgrep_core
+2025-05-29 14:50:36,835 - semgrep.core_runner - DEBUG - Running Semgrep engine with command:
+2025-05-29 14:50:36,835 - semgrep.core_runner - DEBUG - /tmp/_MEIH0ZtBX/semgrep/bin/opengrep-core -json -rules /tmp/tmp8ggzp5w9.json -j 8 -targets /tmp/tmpj4f0kt51 -timeout 5 -timeout_threshold 3 -max_memory 0 -fast
+2025-05-29 14:50:54,847 - semgrep.core_runner - DEBUG - --- semgrep-core stderr ---
+[00.09][[34mINFO[0m]: Executed as: /tmp/_MEIH0ZtBX/semgrep/bin/opengrep-core -json -rules /tmp/tmp8ggzp5w9.json -j 8 -targets /tmp/tmpj4f0kt51 -timeout 5 -timeout_threshold 3 -max_memory 0 -fast
+[00.09][[34mINFO[0m]: Version: 1.2.0
+[00.09][[34mINFO[0m]: Parsing rules in /tmp/tmp8ggzp5w9.json
+[00.64][[34mINFO[0m]: scan: processing 4639 files (skipping 0), with 441 rules (skipping 0 )
+[17.19][[33mWARNING[0m]: Fixpoint timeout while performing taint analysis [rule: config..semgrep.vendored-rules.javascript.lang.security.audit.detect-non-literal-require file: main.js func: startBot:2594]
+[0m[17.96][[34mINFO[0m]: Custom ignore pattern: None
+[17.96][[34mINFO[0m]: Custom ignore pattern: None
+--- end semgrep-core stderr ---
+2025-05-29 14:50:54,854 - semgrep.rule_match - DEBUG - match_key = ('', PosixPath('keepalive.js'), 'config..semgrep.vendored-rules.javascript.express.security.audit.express-check-csurf-middleware-usage') match_id = 5215e3f9a31a9020eb2732defdfcb1fca0472bc4259b7e0d39a068c3382dcdf297c64757cb1a4e0c7f370a924a2baf961754598487e7a27ba333b59ad6cc7aa8_0
+2025-05-29 14:50:54,855 - semgrep.rule_match - DEBUG - match_key = ("app = express()\n express = require('express')\n...\n import {$CSRF} from 'csrf'\n...\n import {$CSRF} from 'csurf'\n...\n require('csrf')\n...\n require('csurf')\n...\n", PosixPath('keepalive.js'), 'config..semgrep.vendored-rules.javascript.express.security.audit.express-check-csurf-middleware-usage') match_id = c13aa9cfe56291a079a4d542ede2f3edfba9666ec660a38f96888500af32015e81ebd935a95cb9eed3cdc3251422369e434988fc255c5eb0e0f3ef671e514fc9_0
+2025-05-29 14:50:54,855 - semgrep.rule_match - DEBUG - match_key = ("app = express()\n express = require('express')\n...\n import {$CSRF} from 'csrf'\n...\n import {$CSRF} from 'csurf'\n...\n require('csrf')\n...\n require('csurf')\n...\n", PosixPath('keepalive.js'), 'config..semgrep.vendored-rules.javascript.express.security.audit.express-check-csurf-middleware-usage') match_id = c13aa9cfe56291a079a4d542ede2f3edfba9666ec660a38f96888500af32015e81ebd935a95cb9eed3cdc3251422369e434988fc255c5eb0e0f3ef671e514fc9_0
+2025-05-29 14:50:54,856 - semgrep.rule_match - DEBUG - match_key = ("app = express()\n express = require('express')\n...\n import {$CSRF} from 'csrf'\n...\n import {$CSRF} from 'csurf'\n...\n require('csrf')\n...\n require('csurf')\n...\n", PosixPath('keepalive.js'), 'config..semgrep.vendored-rules.javascript.express.security.audit.express-check-csurf-middleware-usage') match_id = c13aa9cfe56291a079a4d542ede2f3edfba9666ec660a38f96888500af32015e81ebd935a95cb9eed3cdc3251422369e434988fc255c5eb0e0f3ef671e514fc9_0
+2025-05-29 14:50:54,859 - semgrep.core_runner - DEBUG - semgrep ran in 0:00:19.213786 on 1549 files
+2025-05-29 14:50:54,861 - semgrep.core_runner - DEBUG - findings summary: 0 warning, 0 error, 1 info
+2025-05-29 14:50:54,870 - semgrep.app.auth - DEBUG - Getting API token from settings file
+2025-05-29 14:50:54,870 - semgrep.app.auth - DEBUG - No API token found in settings file
+2025-05-29 14:50:54,870 - semgrep.semgrep_core - DEBUG - Failed to open resource semgrep-core-proprietary: [Errno 2] No such file or directory: '/tmp/_MEIH0ZtBX/semgrep/bin/semgrep-core-proprietary'.
+2025-05-29 14:50:55,346 - semgrep.output - VERBOSE - 
+========================================
+Files skipped:
+========================================
+
+  Always skipped by Opengrep:
+
+   • <none>
+
+  Skipped by .gitignore:
+  (Disable by passing --no-git-ignore)
+
+   • <all files not listed by `git ls-files` were skipped>
+
+  Skipped by .semgrepignore:
+  - https://semgrep.dev/docs/ignoring-files-folders-code/#understand-semgrep-defaults
+
+   • <SKIPPED DATA (too many entries; use --max-log-list-entries)>
+
+  Skipped by --include patterns:
+
+   • <none>
+
+  Skipped by --exclude patterns:
+
+   • <none>
+
+  Files skipped due to insufficient read permissions:
+
+   • <none>
+
+  Skipped by limiting to files smaller than 1000000 bytes:
+  (Adjust with the --max-target-bytes flag)
+
+   • node_modules/@whiskeysockets/baileys/WAProto/index.d.ts
+   • node_modules/@whiskeysockets/baileys/WAProto/index.js
+   • node_modules/typescript/lib/_tsc.js
+   • node_modules/typescript/lib/lib.dom.d.ts
+   • node_modules/typescript/lib/typescript.js
+
+  Partially analyzed due to parsing or internal Opengrep errors
+
+   • <none>
+
+2025-05-29 14:50:55,347 - semgrep.output - INFO - Some files were skipped or only partially analyzed.
+  Scan was limited to files tracked by git.
+  Scan skipped: 5 files larger than 1.0 MB, 8692 files matching .semgrepignore patterns
+  For a full list of skipped files, run opengrep with the --verbose flag.
+
+Ran 403 rules on 1549 files: 1 finding.
+2025-05-29 14:50:55,347 - semgrep.app.version - DEBUG - Version cache does not exist
+2025-05-29 14:50:55,362 - semgrep.metrics - VERBOSE - Not sending pseudonymous metrics since metrics are configured to OFF and registry usage is False
